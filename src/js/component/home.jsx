@@ -2,7 +2,7 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-
+import { Card } from "./cards.jsx";
 //create your first component
 const Home = () => {
 	return (
@@ -19,6 +19,13 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<div className="d-flex d-sm-md-block">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
+
 		</div>
 	);
 };
